@@ -1,0 +1,23 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3);
+  grid-template-rows: repeat(3);
+  grid-template-areas: 
+  'header header header'
+  'content content content'
+  'content content content'
+  'footer footer footer';
+  
+}
+.sn {
+  background: linear-gradient(to bottom right, #012847c0, #48aafad7);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.work {
+  width: 200px;
+}
+.footer {
+  gap: 1rem;
+}
